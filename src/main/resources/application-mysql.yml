@@ -1,0 +1,10 @@
+spring:
+    profiles: mysql
+name: Mysql-YAML
+    # MySQL connection properties
+database.user: root
+database.password: root
+connection.url: jdbc:mysql://localhost:3306/test?useSSL=false
+driver.class: com.mysql.cj.jdbc.Driver
+dialect: org.hibernate.dialect.MySQLDialect
+show.sql: true
